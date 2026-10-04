@@ -33,7 +33,7 @@
 
 1. Склонируйте репозиторий на целевую машину под управлением Ubuntu 24.04:
    ```bash
-   git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
+   git clone https://github.com/zx4falll/MTS_kubernetes.git
    cd <ИМЯ_ДИРЕКТОРИИ>
    ```
 
