@@ -10,7 +10,7 @@
 *   **Операционная система:** Ubuntu 24.04 LTS
 *   **Оркестрация кластера:** Kubernetes v1.37.0 (развернут с нуля через `kubeadm`)
 *   **Рантайм контейнеризации:** containerd v1.7.x (Cgroup driver: `systemd`)
-*   **Сетевой плагин (CNI):** Flannel (актуальный релиз, адаптирован под CIDR `192.168.0.0/16`)
+*   **Сетевой плагин (CNI):** Flannel (актуальный релиз, адаптирован под CIDR )
 *   **Публикация (Gateway API):** Envoy Gateway v1.6.1 (Ресурсы: `GatewayClass`, `Gateway`, `HTTPRoute`)
 *   **Мониторинг:** Prometheus Operator (`kube-prometheus-stack` via Helm)
 *   **Логирование:** Elastic Filebeat (развернут как `DaemonSet` для сбора контейнерных логов)
